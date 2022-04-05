@@ -1,21 +1,11 @@
-package com.sports.sports_db.entity;
+package com.sports.sports_db.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
-@Entity
-public class EmployeeEntity {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-
+public class StudentModel {
     public int id;
     public String firstName;
     public String lastName;
 
-    public EmployeeEntity() {
+    public StudentModel() {
     }
 
     public int getId() {
