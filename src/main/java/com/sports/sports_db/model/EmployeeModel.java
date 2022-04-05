@@ -1,9 +1,12 @@
 package com.sports.sports_db.model;
 
-public class Employee {
+public class EmployeeModel {
     public int id;
     public String firstName;
     public String lastName;
+
+    public EmployeeModel() {
+    }
 
     public int getId() {
         return id;
