@@ -1,4 +1,4 @@
-package com.sports.sports_db.entity;
+package com.student.student_db.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

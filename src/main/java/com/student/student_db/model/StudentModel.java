@@ -1,4 +1,4 @@
-package com.sports.sports_db.model;
+package com.student.student_db.model;
 
 public class StudentModel {
     public int id;

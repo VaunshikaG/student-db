@@ -1,13 +1,13 @@
 //  all business logic
-package com.sports.sports_db.service;
+package com.student.student_db.service;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sports.sports_db.entity.StudentEntity;
-import com.sports.sports_db.model.StudentModel;
-import com.sports.sports_db.repository.StudentRepository;
+import com.student.student_db.entity.StudentEntity;
+import com.student.student_db.model.StudentModel;
+import com.student.student_db.repository.StudentRepository;
 
 import java.util.ArrayList;
 import java.util.List;

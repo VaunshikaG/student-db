@@ -1,13 +1,13 @@
-package com.sports.sports_db;
+package com.student.student_db;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SportsDbApplication {
+public class StudentsDbApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SportsDbApplication.class, args);
+		SpringApplication.run(StudentsDbApplication.class, args);
 	}
 
 }

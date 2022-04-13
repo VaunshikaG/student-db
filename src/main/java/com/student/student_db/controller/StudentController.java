@@ -1,4 +1,4 @@
-package com.sports.sports_db.controller;
+package com.student.student_db.controller;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sports.sports_db.entity.StudentEntity;
-import com.sports.sports_db.model.StudentModel;
-import com.sports.sports_db.service.StudentService;
+import com.student.student_db.entity.StudentEntity;
+import com.student.student_db.model.StudentModel;
+import com.student.student_db.service.StudentService;
 
 @RestController
 @CrossOrigin(origins = "*")
